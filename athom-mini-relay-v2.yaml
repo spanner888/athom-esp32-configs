@@ -220,10 +220,6 @@ sensor:
       name: "Apparent Power"
       filters:
         - throttle_average: ${sensor_update_interval}
-    reactive_power:
-      name: "Reactive Power"
-      filters:
-        - throttle_average: ${sensor_update_interval}
     power_factor:
       name: "Power Factor"
       filters:
